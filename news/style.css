@@ -7,13 +7,13 @@
 .container {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  top: 10%;
+  left: 10%;
 }
 #battery {
   box-sizing: content-box;
-  height: 7.8em;
-  width: 17.5em;
+  height: 1.8em;
+  width: 1.5em;
   border: 0.6em solid #246aed;
   margin: auto;
   border-radius: 0.6em;
@@ -36,7 +36,7 @@
 #charge {
   position: absolute;
   height: 6.5em;
-  width: 16.25em;
+  width: 10.5em;
   background-color: #246aed;
   top: 0.6em;
   left: 0.6em;
@@ -44,7 +44,7 @@
 #charge-level {
   position: absolute;
   font-size: 3em;
-  font-weight: 500;
+  font-weight: 100;
 }
 #charging-time {
   text-align: center;
